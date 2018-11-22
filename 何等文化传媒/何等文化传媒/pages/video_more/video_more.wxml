@@ -1,0 +1,7 @@
+<!--pages/video_more/video_more.wxml-->
+<!-- 列表 -->
+<view class='div flex'>
+    <view class='div_list'></view>
+    <view class='div_list'></view>
+    <view class='div_list'></view>
+</view>

@@ -1,0 +1,17 @@
+<!--pages/balance_detail/balance_detail.wxml-->
+<view class='list_top flex'>
+    <view class='list_c {{id==1?"on":""}}' bindtap='sec' id='1'>充值</view>
+    <view class='list_c {{id==2?"on":""}}' bindtap='sec' id='2'>支出</view>
+</view>
+
+
+<view class='list'>
+    <view class='list_ flex'>
+        <view class='list_left'>充值</view>
+        <view class='list_right'>+20</view>
+    </view>
+    <view class='list_ flex' style='font-size:28rpx;'>
+        <view class='list_left' style='color:#ADADAD;'>微信</view>
+        <view class='list_right' style='color:#ADADAD;'>2018-11-10</view>
+    </view>
+</view>

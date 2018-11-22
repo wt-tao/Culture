@@ -1,0 +1,34 @@
+<!--pages/exchange_integral/exchange_integral.wxml-->
+<view class='list'>
+    <view class='list_l flex'>
+        <view class='list_img'></view>
+        <view class='list_r'>
+            <view class='c_r_name'>水电费萨达让官方店爱人固话费按如果发的</view>
+            <view class='lis_money flex'>
+              <view class='jf_number'>1200 积分</view>
+              <view class='js_num flex'>
+                  <view class='j'>-</view>
+                  <view class='j'>1</view>
+                  <view class='j' style='border:none'>+</view>
+              </view>
+            </view>
+        </view>
+    </view> 
+</view>
+
+<view class='div'>
+    <view class='div_l flex'>
+        <view class='name'>商品积分</view>
+        <view class='jifen'>1200积分</view>
+    </view>
+    <view class='div_l flex'>
+        <view class='name'>我的积分</view>
+        <view class='jifen'>1200积分<text style='color:#999'> (积分不足,</text>兑换积分<text style='color:#999'>)</text></view>
+    </view>
+</view>
+
+
+<view class='dh_bu flex'>
+    <view class='di_name'>合计：<text style='color:#FF6531'>1200 积分</text></view>
+    <view class='di_button'>兑换（1）</view>
+</view>

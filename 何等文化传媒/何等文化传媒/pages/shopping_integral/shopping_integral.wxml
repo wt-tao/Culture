@@ -1,0 +1,45 @@
+<!--pages/shopping_integral/shopping_integral.wxml-->
+<view class='list_top flex'>
+    <view class='list_c {{id==1?"on":""}}' bindtap='sec' id='1'>全部商品</view>
+    <view class='list_c {{id==2?"on":""}}' bindtap='sec' id='2'>商品一</view>
+    <view class='list_c {{id==3?"on":""}}' bindtap='sec' id='3'>商品一</view>
+    <view class='list_c {{id==4?"on":""}}' bindtap='sec' id='4'>商品一</view>
+    <view class='list_c {{id==5?"on":""}}' bindtap='sec' id='5'>商品一</view>
+</view>
+
+<view class='list'  bindtap='shopping_integral_detail' id=''>
+    <view class='list_l flex'>
+        <view class='list_img'></view>
+        <view class='list_r'>
+            <view class='c_r_name'>水电费萨达让官方店爱人固话费按如果发的</view>
+            <view class='lis_money'>￥120</view>
+            <view class='lis_but flex'>
+                <view class='lis_icon flex'>
+                      <view class='icon_text'>积分:2400</view>
+                      <!-- <image src='../../img/'/> -->
+                </view>
+                <view class='l_dh' catchtap='exchange_integral' id=''>兑换</view>
+            </view>
+        </view>
+    </view>
+    
+</view>
+<view class='back'></view>
+<view class='list'>
+    <view class='list_l flex'>
+        <view class='list_img'></view>
+        <view class='list_r'>
+            <view class='c_r_name'>水电费萨达让官方店爱人固话费按如果发的</view>
+            <view class='lis_money'>￥120</view>
+            <view class='lis_but flex'>
+                <view class='lis_icon flex'>
+                      <view class='icon_text'>积分:2400</view>
+                      <!-- <image src='../../img/'/> -->
+                </view>
+                <view class='l_dh'>兑换</view>
+            </view>
+        </view>
+    </view>
+</view>
+ <view class='back'></view>
+

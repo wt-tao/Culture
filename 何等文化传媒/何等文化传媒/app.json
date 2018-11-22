@@ -1,0 +1,43 @@
+{
+  "pages":[
+    
+    "pages/home_page/home_page",
+    "pages/video_more/video_more",
+    "pages/store_display_detail/store_display_detail",
+    "pages/comment/comment",
+    "pages/shopping_integral/shopping_integral",
+    "pages/card/card",
+    "pages/exchange_integral/exchange_integral",
+    "pages/shopping_integral_detail/shopping_integral_detail",
+    "pages/make_appointment/make_appointment",
+    "pages/video_detail/video_detail",
+    "pages/video_curriculum/video_curriculum",
+    "pages/store_display/store_display",
+    "pages/user/user",
+    "pages/integral_record/integral_record",
+    "pages/integral_detail/integral_detail",
+    "pages/integral/integral",
+    "pages/recharge/recharge",
+    "pages/balance/balance",
+    "pages/balance_detail/balance_detail",
+    "pages/my_collection/my_collection",
+    "pages/my_oredr_detail/my_oredr_detail",
+    "pages/my_order/my_order",
+    "pages/sj_all_list/sj_all_list",
+
+   
+    
+   "pages/main/main",
+    "pages/index/index",
+    "pages/main_detail/main_detail",
+    "pages/register/register",
+    "pages/password/password",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "何等文化传媒",
+    "navigationBarTextStyle":"black"
+  }
+}

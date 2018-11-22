@@ -1,0 +1,21 @@
+/* pages/my_order/my_order.wxss */
+/* page{background-color: #F0F0F0} */
+.list_top{width: 100%;height:100rpx;line-height: 100rpx;font-size: 30rpx;text-align: center;background-color: white}
+.list_c{width: 25%}
+.on{color: #FF6F3E;border-bottom: 5rpx solid #FF6F3E;}
+
+.div{width: 100%; border-top: 1rpx solid #E3E3E3;}
+.div_t{width: 94%;margin-left: 3%;text-align: right;font-size: 30rpx;color: #FF6433;border-bottom: 1rpx solid #E3E3E3;line-height: 100rpx;}
+.div_comd{width: 94%;padding: 30rpx 0;border-bottom: 1rpx solid #E3E3E3;height:200rpx;margin-left:3%;}
+.comd_img{width: 200rpx;height: 200rpx;border: 1rpx solid black;}
+.comd_right{width: 490rpx;margin-left:20rpx;height: 200rpx;}
+.c_r_name{width: 100%;height: 100rpx;line-height: 50rpx;flex-wrap: wrap;font-size: 30rpx;border-bottom: 1rpx solid #E3E3E3;display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;padding-bottom: 20rpx;}
+.c_r_detail{text-align: right;font-size: 24rpx;color: #999;line-height: 110rpx;width: 100%;}
+.div_button{width: 100%;height: 100rpx;}
+.d_b_left{width: 65%;}
+.d_b_r{width: 200rpx;height: 60rpx;line-height: 60rpx;margin-top: 20rpx;text-align: center;border-radius: 5rpx;border: 2rpx solid #FF6433;color: #FF6433;font-size: 30rpx;margin-left:40rpx;}
+.d_b_left_b{border: 2rpx solid #B4B4B4;color: #454545;margin-left:300rpx;}
+.back{width: 100%;height: 20rpx;background-color: #F0F0F0;}
+
+.bl_name{width: 100%;text-align: center;font-size: 36rpx;color: #555555;margin-top:60rpx;}
+.bl_text{font-size: 28rpx;color: #999;margin-top: 30rpx;}

@@ -1,0 +1,40 @@
+<!--pages/my_oredr_detail/my_oredr_detail.wxml-->
+<image src='{{(id==1||id==2)?"../../img/dg (3).png":(id==3)?"../../img/dg (1).png":(id==4)?"../../img/dg (2).png":""}}' style='width:100%' mode='widthFix'/>
+<view class='top'>
+    <view class='top_text'>{{(id==1||id==2)?'等待买家付款':(id==3)?'买家已付款':(id==4)?'交易成功':''}}</view>
+</view>
+<view class='back'></view>
+<view class='div' bindtap='order_detail' id='{{id}}'>
+    <view class='div_t'>{{(id==1||id==2)?'待买家付款':(id==3)?'买家已付款':(id==4)?'买家已付款':''}}</view>
+    <view class='divs flex'>
+        <view class='head_img'></view>
+        <view class='div_right'>
+            <view class='name'>色粉丝的瑞迪公司是否会双方各双方各输入公式个</view>
+            <view class='money'>￥240</view>
+            <view class='div_bot flex'>
+                <view class='bot_'>积分：2400</view>
+                <view class='bot_ num'>x1</view>
+            </view>
+        </view>
+    </view>
+    <view class='back'></view>
+</view>
+<view class='list flex'>
+    <view class='list_left'>商品总价</view>
+    <view class='list_left l_r'>￥240</view>
+</view>
+<view class='list flex'>
+    <view class='list_left'>商品积分</view>
+    <view class='list_left l_r'>2400</view>
+</view>
+<view class='list flex'>
+    <view class='list_left'>商品积分</view>
+    <view class='list_left l_r' style='color:#FE4D11'>实际付款￥240  积分2400</view>
+</view>
+
+ <view class='div_button flex'>
+        <view class='d_b_left'>
+            <view class='d_b_left_b d_b_r' wx:if='{{id==2}}'>取消订单</view>
+        </view>
+        <view class='d_b_r'>{{(id==1||id==2)?"付款":(id==3)?"确认提货":(id==4)?"删除订单":""}}</view>
+    </view>

@@ -1,0 +1,11 @@
+/* pages/make_appointment/make_appointment.wxss */
+page{background-color: #FFFFFF;}
+.tit{width: 94%;margin-left: 3%;}
+.titl_name{font-size: 30rpx;color: #999;line-height: 100rpx;}
+.ls{font-size: 31rpx;color: #333;line-height: 50rpx;}
+
+
+.place{color: #D2D2D2;font-size: 28rpx;}
+.textarea{width: 88%;margin-left:3%;padding: 20rpx 3%;height:250rpx;background-color: white;border-radius: 10rpx;border: 1rpx solid #F7F7F7;font-size: 28rpx;margin-top: 50rpx;}
+
+.pl{background-color: #FF6531;width: 80%;margin-left: 10%;height: 80rpx;line-height: 80rpx;text-align: center;color: white;font-size: 32rpx;border-radius: 40rpx;margin-top: 80rpx;}

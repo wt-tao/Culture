@@ -1,0 +1,114 @@
+<!--pages/shopping_integral_detail/shopping_integral_detail.wxml-->
+
+<view class='head'>
+     <swiper indicator-dots="true" autoplay="true" interval="3000" indicator-color='white' indicator-active-color='#FF7F01' duration="1000" class="swiper-item" circular="true">
+          <block wx:for="{{banner}}" wx:for-index="index">
+              <swiper-item>
+                <image src="{{item}}" class="slide-image" style='width:100%;height:100%' mode="aspectFill" />
+              </swiper-item>
+          </block> 
+     </swiper>
+     <view class='head_news'>
+        <view class='news_name nowarp'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='news_detail'>
+              <view class='news_detail_bz nowarp'>新立体塑颜紧致</view>
+              <view class='jifen flex'>
+                  <view class='jifen_number'>1200 <text style='font-size:28rpx;'>积分</text></view>
+                  <view class='je_r_num'>1266人兑换</view>
+              </view>
+              <view class='com_cs flex' bindtap='sort'>
+                  <view class='com_name'>商品参数</view>
+                  <image src='../../img/jt_cb.png' style='width:20rpx;;margin-top:40rpx' mode='widthFix'/>
+              </view>
+            
+        </view>
+     </view>
+</view>
+
+<!-- 评论 -->
+
+<view class='c_list' style='height:100%'>
+    <view class='c_list_title flex'>
+        <view class='c_list_icon'></view>
+        <view class='title_name'>精选点评</view>
+        <view class='c_list_gd'>60 ></view>
+    </view>
+
+    <view class='yh_info'>
+        <view class='info_top flex'>
+            <!-- 头像 -->
+            <view class='info_img'></view>
+            <view class='info_name'>测试昵称</view>
+        </view>
+        <view class='pf flex'>
+            <view style='width:60rpx;'>打分</view>
+            <image src='../../img/xx-12_12px.png' style='width:30rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix' wx:for='{{5}}'/>
+        </view>
+        <view class='pj_text'>翱死到哪了两三年的内咯傲视的傲视和奥双方都爱上京东方</view>
+        <view class='time'>2018.12.10</view>
+        <view class='pj_img'>
+        <scroll-view scroll-x style=" white-space: nowrap; display: flex">
+            <block wx:for='{{4}}'>
+                <view class='img_tp' style='display: inline-block;'></view>
+            </block>
+        </scroll-view>
+        </view>
+            <view style='width:100%;height:20rpx;'></view>
+    </view>
+      <view class='pl_but'>查看全部评论</view>
+</view>
+
+
+<!-- 图文详情 -->
+
+<view class='c_list' style='height:100%'>
+    <view class='c_list_title flex'>
+        <view class='c_list_icon'></view>
+        <view class='title_name'>图文详情</view>
+        <!-- <view class='c_list_gd'>6</view> -->
+    </view>
+</view>
+<view class='height:120rpx;width:100%'></view>
+
+<view class='com_but flex'>
+    <view class='com_b_left flex'>
+        <view class='c_b_l_list' bindtap='comment'>
+            <image src='../../img/dp.png' style='width:50rpx;margin-left:40rpx;margin-top:10rpx;' mode='widthFix'/>
+            <view class='pl_text'>评论</view>
+        </view>
+        <view class='c_b_l_list' bindtap='card'>
+            <image src='../../img/fw-(3).png' style='width:50rpx;margin-left:40rpx;margin-top:10rpx;' mode='widthFix'/>
+            <view class='pl_text'>购物车</view>
+        </view>
+    </view>
+    <view class='cm_buan' bindtap='sort'>加入购物车</view>
+    <view class='cm_buan' style='background-color: #8E459F' bindtap='sort'>立即兑换</view>
+</view>
+
+
+<!-- 弹窗 -->
+<block wx:if='{{sort}}'>
+<view class="bg"  bindtap='display' ></view>
+<view class="show">
+      <view class='show_'>
+          <view class='s_top flex'>
+              <view class='s_img'></view>
+              <view class='s_coun'>
+                  <view class='s_coun_jf'>1200 积分</view>
+                  <view class='s_coun_kc'>库存53件</view>
+              </view>
+              <image src='../../img/yjjx_kb.png' style='width:50rpx;margin-left:20rpx;' mode='widthFix' bindtap='display'/>
+          </view>
+          <view class='s_num flex'>
+              <view class='s_b_l'>购买数量</view>
+              <view class='s_b_r flex'>
+                  <view class='jian'>-</view>
+                  <view class='jian' style='color:#333'>2</view>
+                  <view class='jian'>+</view>
+              </view>
+          </view>
+      </view>
+
+      <view class='s_bt'>确定</view>
+</view>
+</block>

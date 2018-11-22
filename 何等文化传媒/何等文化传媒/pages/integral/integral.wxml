@@ -1,0 +1,22 @@
+<!--pages/integral/integral.wxml-->
+<view class='back'>
+    <view class='back_title flex'>
+        <image src='../../img/jf.png' style='width:30rpx;margin-top:15rpx;margin-left:290rpx;' mode='widthFix'/>
+        <view class='ti_text'>我的积分</view>
+    </view>
+
+    <view class='back_money'>3800.05</view>
+</view>
+
+
+<view class='list flex'>
+    <view class='list_' style='border-right:1rpx solid #F4F4F4' bindtap='integral_record'>
+        <image src='../../img/dhjf (1).png' style='width:30%;margin-left:1%;' mode='widthFix'/>
+        <view>兑换记录</view>
+    </view>
+    <view class='list_' bindtap='integral_detail'>
+        <image src='../../img/dhjf (2).png' style='width:27%;margin-left:1%;' mode='widthFix'/>
+        <view>积分明细</view>
+    </view>
+</view>
+

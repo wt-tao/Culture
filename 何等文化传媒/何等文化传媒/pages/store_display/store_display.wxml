@@ -1,0 +1,45 @@
+<!--pages/store_display/store_display.wxml-->
+<view class='search'>
+  <view style='height:10rpx;'></view>
+    <view class='search_ flex'>
+        <input class='input' placeholder='关键词搜索' placeholder-class='polac'/>
+        <image src='../../img/search.png' style='width:40rpx;margin-top:20rpx;margin-left:30rpx;' mode='widthFix'/>
+    </view>
+</view>
+
+
+<!-- 瀑布流 -->
+<view class='div flex'>
+    <view class='div_list'  bindtap='store_display_detail' id='1'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+    <view class='div_list'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+    <view class='div_list'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+
+    <view style='height:20rpx;width:100%'></view>
+</view>

@@ -1,0 +1,34 @@
+<!--pages/register/register.wxml-->
+<view class='list flex' style='margin-top:50rpx;'>
+    <view class='name'>手机号</view>
+    <input placeholder='请输入您的手机号' placeholder-class='place' class='input' type='number'/>
+    <!-- <image src='../../img/gthkb.png' style='width:45rpx;margin-top:27rpx;margin-left:10rpx;' mode='widthFix'/> -->
+</view>
+<view class='list flex'>
+    <view class='name'>验证码</view>
+    <input placeholder='请输入您的验证码' placeholder-class='place' class='input' type='password'/>
+    <view class='yzm'>获取验证码</view>
+</view>
+<view class='list flex'>
+    <view class='name'>店铺位置</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="inputs flex">
+      <input placeholder='{{array[index]}}' placeholder-class='place' class='input1' />
+      <image src='../../img/jt-(1).png' style='width:20rpx;margin-top:40rpx;margin-left:15rpx;' mode='widthFix'/>
+        
+    </view>
+  </picker>
+</view>
+<view class='list flex'>
+    <view class='name'>密码</view>
+    <input placeholder='请输入您的密码' placeholder-class='place' class='input' type='password'/>
+    <!-- <view class='yzm'>获取验证码</view> -->
+</view>
+
+
+<view class='login' bindtap='main'>登录</view>
+<view class='logins' bindtap='login'>立即登录 ></view>
+
+
+
+<image src='../../img/f682077c55a7ed8b5d8f5b5acfd50727.png' class='bottom_img' mode='widthFix'/>

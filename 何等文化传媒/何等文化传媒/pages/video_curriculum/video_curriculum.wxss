@@ -1,0 +1,10 @@
+/* pages/video_curriculum/video_curriculum.wxss */
+.search{width: 100%;height:100rpx;}
+.search_{width: 90%;margin-left: 5%;height: 80rpx;margin-top: 10rpx;border-radius: 40rpx;border: 1rpx solid #F7F7F7;}
+.input{height: 80rpx;font-size: 28rpx;width: 75%;padding-left: 40rpx;}
+
+.list{width: 100%;height: 100rpx;line-height: 100rpx;font-size: 28rpx;color: #808080;margin-top: 30rpx;box-shadow: 6rpx 6rpx 12rpx #999;background-color: white;}
+.tabber_list{width: 17%;text-align: center;}
+.on{font-size: 32rpx;font-weight: bold;border-bottom: 5rpx solid #FF6333;color: #333333}
+.div{width: 100%;flex-wrap: wrap;}
+.div_list{width: 44%;margin-left: 4%;margin-top:30rpx;border: 1rpx solid black;border-radius: 15rpx;height:300rpx;}

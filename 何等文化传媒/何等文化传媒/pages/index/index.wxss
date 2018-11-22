@@ -1,0 +1,10 @@
+/**index.wxss**/
+.list{width: 80%;margin-left: 10%;height: 100rpx;border-bottom: 1rpx solid #F7F7F7;line-height: 100rpx;font-size: 30rpx;}
+.name{width: 20%;}
+.place{font-size: 30rpx;color: #C8C6CF;}
+.input{width: 70%;height: 100rpx;}
+.login{width: 80%;margin-left: 10%;line-height: 80rpx;text-align: center;background-color: #FF6531;color: white;font-size: 30rpx;border-radius: 40rpx;margin-top:150rpx;}
+.lie{width: 80%;margin-left: 10%;line-height: 100rpx;font-size: 28rpx;color: #FE7A50}
+.lie_text{width: 50%;}
+.lie_texts{text-align: right;}
+.bottom_img{position: fixed;bottom: 0;width: 100%}

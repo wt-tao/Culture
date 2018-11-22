@@ -1,0 +1,39 @@
+<!--pages/sj_all_list/sj_all_list.wxml-->
+<view class='top flex'>
+    <view class='too_list flex'>
+        <view class='top_text'>全部商区</view>
+        <image src='../../img/xz-1.png' style='width:20rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix'/>
+    </view>
+    <view class='too_list flex'>
+        <view class='top_text' style='width:60%'>美食</view>
+        <image src='../../img/xz-1.png' style='width:20rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix'/>
+    </view>
+    <view class='too_list flex'>
+        <view class='top_text'>智能排序</view>
+        <image src='../../img/xz-1.png' style='width:20rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix'/>
+    </view>
+    <view class='too_list flex'>
+        <view class='top_text' style='width:60%'>筛选</view>
+        <image src='../../img/xz-1.png' style='width:20rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix'/>
+    </view>
+</view>
+
+<view class='div flex' bindtap='main_detail' id=''>
+    <view class='div_list'>
+        <view class='div_img'></view>
+        <view class='div_dp flex'>
+            <view class='dp_img'></view>
+            <view class='dp_name nowarp'>美食美客美味</view>
+        </view>
+
+        <view class='div_xingx flex'>
+            <view class='xix_ flex'>
+                <image src='../../img/xx-12_12px.png' style='width:40rpx;margin-top:15rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}'/>
+            </view>
+            <view class='xix_money'>￥60/人</view>
+        </view>
+
+        <view class='add'>美食 红星路</view>
+    </view>
+    
+</view>

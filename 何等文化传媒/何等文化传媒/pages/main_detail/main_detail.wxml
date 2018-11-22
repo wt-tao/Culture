@@ -1,0 +1,109 @@
+<!--pages/main_detail/main_detail.wxml-->
+<!-- 轮播 -->
+<view class='head'>
+     <swiper indicator-dots="true" autoplay="true" interval="3000" indicator-color='white' indicator-active-color='#FF7F01' duration="1000" class="swiper-item" circular="true">
+          <block wx:for="{{banner}}" wx:for-index="index">
+              <swiper-item>
+                <image src="{{item}}" class="slide-image" style='width:100%;height:100%' mode="aspectFill" />
+              </swiper-item>
+          </block> 
+     </swiper>
+     <view class='head_news'>
+        <view class='news_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='news_detail flex'>
+            <view class='news_detail_left'>
+                <view class='news_detail_left_top flex'>
+                    <image src='../../img/xx-12_12px.png' style='width:40rpx;margin-top:20rpx;margin-left:10rpx;' mode='widthFix' wx:for='{{5}}'/>
+                </view>
+                <view class='news_detail_left_bottom'>效果:9.3 环境:9.3 服务:9.3</view>
+            </view>
+
+            <view class='news_detail_right'>
+                <view class='guanz'>+关注</view>
+                <view class='add'>高新区 舞蹈</view>
+            </view>
+        </view>
+     </view>
+</view>
+
+
+<view class='address'>
+    <view class='address_ares flex'>
+        <image src='../../img/dz-(1).png' style='width:40rpx;margin-top:40rpx;' mode='widthFix'/>
+        <view class='address_ares_right'>
+            <view class='address_name nowarp'>天府二街蜀都中心一期3号楼203</view>
+            <view class='address_name xx nowarp'>距地铁一号线世纪城站B出口步行100米</view>
+        </view>
+    </view>
+    <view class='address_ares flex' style='border:none'>
+        <image src='../../img/dh.png' style='width:40rpx;margin-top:40rpx;' mode='widthFix'/>
+        <view class='address_ares_right flex'>
+            <view class='phone'>4000-000-000</view>
+            <view class='db'>一键拨号</view>
+        </view>
+    </view>
+</view>
+
+
+<view class='c_list'>
+    <view class='c_list_title flex'>
+        <view class='title_name'>推荐菜</view>
+        <view class='c_list_gd'>查看更多 ></view>
+    </view>
+    <view class='c_list_index flex'>
+      <scroll-view scroll-x style=" white-space: nowrap; display: flex">
+        <block wx:for='{{4}}'>
+          <view class='list_index' style='display: inline-block;margin-right:20rpx;'>
+              <view class='index_img'></view>
+              <view class='index_name'>菜品名称</view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+</view>
+
+<view class='c_list' style='height:100%'>
+    <view class='c_list_title flex'>
+        <view class='title_name'>精选点评</view>
+        <view class='c_list_gd'>60 ></view>
+    </view>
+
+    <view class='yh_info'>
+        <view class='info_top flex'>
+            <!-- 头像 -->
+            <view class='info_img'></view>
+            <view class='info_name'>测试昵称</view>
+        </view>
+        <view class='pf flex'>
+            <view style='width:60rpx;'>打分</view>
+            <image src='../../img/xx-12_12px.png' style='width:30rpx;margin-left:10rpx;margin-top:35rpx;' mode='widthFix' wx:for='{{5}}'/>
+        </view>
+        <view class='pj_text'>翱死到哪了两三年的内咯傲视的傲视和奥双方都爱上京东方</view>
+        <view class='time'>2018.12.10</view>
+        <view class='pj_img'>
+        <scroll-view scroll-x style=" white-space: nowrap; display: flex">
+            <block wx:for='{{4}}'>
+                <view class='img_tp' style='display: inline-block;'></view>
+            </block>
+        </scroll-view>
+        </view>
+        <view class='ck_see'>查看更多评论</view>
+            <view style='width:100%;height:20rpx;'></view>
+    </view>
+
+</view>
+<view style='width:100%;height:120rpx;'></view>
+
+<view class='ljyy flex'>
+    <view class='ljyy_left flex'>
+        <view class='qiandao flex'>
+          <image src='../../img/qd_49.png' style='width:50rpx;margin-left:20rpx;' mode='widthFix'/>
+          <view class='qd_text'>签到</view>
+        </view>
+         <view class='qiandao flex' style='border:none' bindtap='comment'>
+          <image src='../../img/dp.png' style='width:50rpx;margin-left:20rpx;' mode='widthFix'/>
+          <view class='qd_text' style='color:#BBBBBB'>评论</view>
+        </view>
+    </view>
+    <view class='lj_button' bindtap='make_appointment'>立即预约</view>
+</view>

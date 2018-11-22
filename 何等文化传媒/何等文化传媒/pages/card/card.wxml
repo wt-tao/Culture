@@ -1,0 +1,67 @@
+<!--pages/card/card.wxml-->
+<view class='list'>
+    <view class='list_l flex'>
+        <image src='../../img/yjjx-1-kb-2 (1).png' style='width:40rpx;margin-top:90rpx;' mode='widthFix'/>
+        <view class='list_img'></view>
+        <view class='list_r'>
+            <view class='c_r_name'>水电费萨达让官方店爱人固话费按如果发的</view>
+            <view class='lis_money flex'>
+              <view class='jf_number'>1200 积分</view>
+              <view class='js_num flex'>
+                  <view class='j'>-</view>
+                  <view class='j'>1</view>
+                  <view class='j' style='border:none'>+</view>
+              </view>
+            </view>
+        </view>
+    </view> 
+</view>
+<view class='list'>
+    <view class='list_l flex'>
+        <image src='../../img/yjjx-1-kb-2 (2).png' style='width:40rpx;margin-top:90rpx;' mode='widthFix'/>
+        <view class='list_img'></view>
+        <view class='list_r'>
+            <view class='c_r_name'>水电费萨达让官方店爱人固话费按如果发的</view>
+            <view class='lis_money flex'>
+              <view class='jf_number'>1200 积分</view>
+              <view class='js_num flex'>
+                  <view class='j'>-</view>
+                  <view class='j'>1</view>
+                  <view class='j' style='border:none'>+</view>
+              </view>
+            </view>
+        </view>
+    </view> 
+</view>
+
+<view class='card_tj flex'>
+    <image src='../../img/yjjx-1-kb-2 (1).png' style='width:40rpx;margin-top:30rpx;margin-left:3%' mode='widthFix'/>
+    <view class='tj_name'>全选</view>
+    <view class='tj_number'>合计：<text style='color:#FF6532'>1200 积分</text></view>
+    <view class='tj_bu'>结算（1）</view>
+</view>
+
+
+<view class='buttom flex'>
+    <view class='buttom_list' bindtap='home_page'>
+        <image src='../../img/fw-(5).png' class='buttom_list_imgs' mode='widthFix'/>
+        <view class='buttom_list_text' >首页</view>
+    </view>
+    <view class='buttom_list'>
+        <image src='../../img/fw-(1).png' class='buttom_list_imgs' style='width:35%;margin-left:35%' mode='widthFix'/>
+        <view class='buttom_list_text'>服务</view>
+    </view>
+     <view class='buttom_list'>
+        <image src='../../img/yjjx-11-kb.png' class='buttom_list_imgs' style='margin-top:-20rpx;width:70%;margin-left:15%' mode='widthFix'/>
+        <!-- <view class='buttom_list_text'>服务</view> -->
+    </view>
+     <view class='buttom_list'>
+        <image src='../../img/fw-(4).png' class='buttom_list_imgs' style='width:32%;margin-left:37%' mode='widthFix'/>
+        <view class='buttom_list_text' style='color:#FF8C1F'>购物车</view>
+    </view>
+     <view class='buttom_list' bindtap='user'>
+        <image src='../../img/fw-(6).png' class='buttom_list_imgs' style='width:30%;margin-left:37%'  mode='widthFix'/>
+        <view class='buttom_list_text' >我的</view>
+    </view>
+
+</view>

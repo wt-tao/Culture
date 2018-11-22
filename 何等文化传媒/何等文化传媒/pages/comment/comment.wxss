@@ -1,0 +1,11 @@
+/* pages/comment/comment.wxss */
+page{background-color: #FFFFFF;}
+.tit{width: 94%;margin-left: 3%;height:100rpx;}
+.titl_name{font-size: 32rpx;color: #333;line-height: 100rpx;}
+.xingx{width: 70%;margin-left: 20rpx;height: 100rpx;}
+
+.place{color: #D2D2D2;font-size: 28rpx;}
+.textarea{width: 88%;margin-left:3%;padding: 20rpx 3%;height:250rpx;background-color: white;border-radius: 10rpx;border: 1rpx solid #F7F7F7;font-size: 28rpx;}
+.img{width: 100%;flex-wrap: wrap;margin-top: 20rpx;border: 1rpx solid black}
+.imgs{margin-left: 5%;margin-top: 20rpx;width: 180rpx;height:180rpx;border: 1rpx solid black}
+.pl{background-color: #FF6531;width: 80%;margin-left: 10%;height: 80rpx;line-height: 80rpx;text-align: center;color: white;font-size: 32rpx;border-radius: 40rpx;margin-top: 80rpx;}

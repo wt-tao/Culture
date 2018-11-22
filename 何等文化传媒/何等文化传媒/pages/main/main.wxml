@@ -1,0 +1,108 @@
+<!--pages/main/main.wxml-->
+<view class='search'>
+    <view class='search_ flex'>
+        <input class='input' placeholder='关键词搜索' placeholder-class='polac'/>
+        <image src='../../img/search.png' style='width:40rpx;margin-top:20rpx;margin-left:30rpx;' mode='widthFix'/>
+    </view>
+</view>
+
+<!-- 轮播 -->
+<view class='head'>
+     <swiper indicator-dots="true" autoplay="true" interval="3000" indicator-color='white' indicator-active-color='#FF7F01' duration="1000" class="swiper-item" circular="true">
+          <block wx:for="{{banner}}" wx:for-index="index">
+              <swiper-item>
+                <image src="{{item}}" class="slide-image" style='width:100%;height:100%' mode="aspectFill" />
+              </swiper-item>
+          </block> 
+     </swiper>
+</view>
+
+
+<view class='sec_ flex'>
+    <view class='sec_list' bindtap='sj_all_list' id='' data-title='美食'>
+        <image src='../../img/jx-3 (1).png' mode='widthFix' class='sec_img'/>
+        <view class='sec_text'>美食</view>
+    </view>
+    <view class='sec_list'>
+        <image src='../../img/jx-3 (2).png' mode='widthFix' class='sec_img'/>
+        <view class='sec_text'>美容/美发</view>
+    </view>
+    <view class='sec_list'>
+        <image src='../../img/jx-3 (3).png' mode='widthFix' class='sec_img'/>
+        <view class='sec_text'>洗车</view>
+    </view>
+    <view class='sec_list'>
+        <image src='../../img/jx-3 (4).png' mode='widthFix' class='sec_img'/>
+        <view class='sec_text'>亲子</view>
+    </view>
+</view>
+
+<!-- 中间图 -->
+<view class='count_img'></view>
+
+<!-- 推荐 -->
+<view class='recommend'>—— 热门推荐 ——</view>
+
+<view class='recommend_title flex'>
+    <view class='title_text {{item.id==id?"on":""}}' wx:for='{{list}}' id='{{item.id}}' bindtap='list'>{{item.name}}</view>
+</view>
+
+<!-- 瀑布流 -->
+<view class='div flex'>
+    <view class='div_list'  bindtap='store_display_detail' id='1'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+    <view class='div_list'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+    <view class='div_list'>
+        <view class='list_img'></view>
+        <view class='list_name'>CC舞蹈瑜伽工作室（青羊店）</view>
+        <view class='dibu flex'>
+          <view class='xingx flex'>
+            <image src='../../img/tc-49.png' class='list_img' mode='widthFix' wx:for='{{5}}'/>
+          </view>
+          <view class='text'>83条 消费:￥51</view>
+        </view>
+    </view>
+
+    <view style='height:120rpx;width:100%'></view>
+</view>
+
+<view class='buttom flex'>
+    <view class='buttom_list'>
+        <image src='../../img/tc-49-kb_97.png' class='buttom_list_imgs' mode='widthFix'/>
+        <view class='buttom_list_text' style='color:#FF8C1F'>首页</view>
+    </view>
+    <view class='buttom_list'>
+        <image src='../../img/fw-(1).png' class='buttom_list_imgs' style='width:35%;margin-left:35%' mode='widthFix'/>
+        <view class='buttom_list_text'>服务</view>
+    </view>
+     <view class='buttom_list'>
+        <image src='../../img/yjjx-11-kb.png' class='buttom_list_imgs' style='margin-top:-20rpx;width:70%;margin-left:15%' mode='widthFix'/>
+        <!-- <view class='buttom_list_text'>服务</view> -->
+    </view>
+     <view class='buttom_list'>
+        <image src='../../img/fw-(3).png' class='buttom_list_imgs' style='width:32%;margin-left:37%' mode='widthFix'/>
+        <view class='buttom_list_text'>购物车</view>
+    </view>
+     <view class='buttom_list' >
+        <image src='../../img/fw-(6).png' class='buttom_list_imgs' style='width:30%;margin-left:37%'  mode='widthFix'/>
+        <view class='buttom_list_text'>我的</view>
+    </view>
+
+</view>

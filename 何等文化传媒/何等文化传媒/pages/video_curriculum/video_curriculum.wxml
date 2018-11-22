@@ -1,0 +1,22 @@
+<!--pages/video_curriculum/video_curriculum.wxml-->
+<view class='search'>
+    <view class='search_ flex'>
+        <input class='input' placeholder='关键词搜索' placeholder-class='polac'/>
+        <image src='../../img/search.png' style='width:40rpx;margin-top:20rpx;margin-left:30rpx;' mode='widthFix'/>
+    </view>
+</view>
+
+<view class='list'>
+    <scroll-view scroll-x style=" white-space: nowrap; display: flex">
+      <block wx:for='{{list}}'>
+        <view class='tabber_list {{item.id==ids?"on":""}}'  bindtap='list'  id='{{item.id}}' style='display: inline-block'>{{item.name}}</view>
+      </block>
+  </scroll-view>
+</view>
+
+<!-- 列表 -->
+<view class='div flex'>
+    <view class='div_list' bindtap='video_detail' id='1'></view>
+    <view class='div_list'></view>
+    <view class='div_list'></view>
+</view>

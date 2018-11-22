@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<view class='list flex' style='margin-top:50rpx;'>
+    <view class='name'>手机号</view>
+    <input placeholder='请输入您的手机号' placeholder-class='place' class='input' type='number'/>
+    <image src='../../img/gthkb.png' style='width:45rpx;margin-top:27rpx;margin-left:10rpx;' mode='widthFix'/>
+</view>
+<view class='list flex'>
+    <view class='name'>密码</view>
+    <input placeholder='请输入您的密码' placeholder-class='place' class='input' type='password'/>
+    <image src='../../img/gthkb.png' style='width:45rpx;margin-top:27rpx;margin-left:10rpx;' mode='widthFix'/>
+</view>
+
+<view class='login' bindtap='main'>登录</view>
+
+<view class='lie flex'>
+    <view class='lie_text' bindtap='password'>忘记密码?</view>
+    <view class='lie_text lie_texts' bindtap='register'>立即注册></view>
+</view>
+
+<image src='../../img/f682077c55a7ed8b5d8f5b5acfd50727.png' class='bottom_img' mode='widthFix'/>

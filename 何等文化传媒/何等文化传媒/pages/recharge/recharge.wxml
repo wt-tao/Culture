@@ -1,0 +1,11 @@
+<!--pages/recharge/recharge.wxml-->
+<view class='div'>
+    <view class='tite'>充值金额</view>
+    <view class='shur flex'>
+        <view class='icon'>￥</view>
+        <input class='input'/>
+    </view>
+</view>
+
+
+<view class='rec_button'>确认充值</view>

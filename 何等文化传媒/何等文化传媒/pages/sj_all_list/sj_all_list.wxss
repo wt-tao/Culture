@@ -1,0 +1,15 @@
+/* pages/sj_all_list/sj_all_list.wxss */
+page{background-color: #F0F0F0}
+.top{width: 100%;background-color: white;height: 80rpx;line-height: 80rpx;font-size: 28rpx;color: #555;}
+.too_list{width: 25%;height: 100%;}
+.top_text{width: 70%;text-align: right;}
+.div{width: 100%; flex-wrap: wrap;}
+.div_list{width: 44%;margin-left: 4%;height:500rpx;margin-top:30rpx;background-color: white;border-radius: 5rpx; }
+.div_img{width: 100%;height:300rpx;border: 1rpx solid black;}
+.div_dp{width: 95%;margin-left: 2.5%;height: 60rpx;}
+.dp_img{width: 120rpx;height:120rpx;margin-top:-60rpx;border: 1rpx solid black;}
+.dp_name{margin-left: 10rpx;line-height: 60rpx;font-size: 28rpx;color: #333;}
+.div_xingx{width: 95%;margin-left: 2.5%;height:60rpx;line-height: 60rpx;margin-top:10rpx;}
+.xix_{width: 50%;height: 60rpx;}
+.xix_money{width: 50%;text-align: right;font-size: 28rpx;color: #333}
+.add{width: 95%;margin-left: 2.5%;line-height: 60rpx;font-size: 26rpx;color: #999 }

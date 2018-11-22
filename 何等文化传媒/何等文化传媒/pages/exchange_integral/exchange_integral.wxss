@@ -1,0 +1,20 @@
+/* pages/exchange_integral/exchange_integral.wxss */
+page{background-color: #F6F6F6;}
+.list{width: 100%;height: 240rpx;background-color: white;}
+.list_l{width: 94%;margin-left: 3%;}
+.list_img{width: 200rpx;height:200rpx;margin-top: 20rpx;border: 1rpx solid black}
+.list_r{width: 480rpx;margin-left: 20rpx;height: 220rpx;margin-top:20rpx;}
+.c_r_name{width: 100%;height: 100rpx;line-height: 50rpx;flex-wrap: wrap;font-size: 30rpx;display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;padding-bottom: 10rpx;}
+.lis_money{font-size: 32rpx;color: #FF6F3E;}
+.jf_number{width: 50%;line-height: 100rpx;}
+.js_num{width: 50%;border: 1rpx solid #EAEAEA;height:80rpx;margin-top:10rpx;text-align: center;line-height: 80rpx;font-size: 34rpx;color: #555}
+.j{width: 33.3%;border-right: 1rpx solid #EAEAEA}
+
+.div{width: 100%;background-color: white;margin-top: 20rpx;}
+.div_l{width: 94%;margin-left: 3%;border-bottom: 1rpx solid #EAEAEA;height:100rpx;line-height: 100rpx;}
+.name{font-size: 32rpx;color: #333;width: 30%}
+.jifen{color: #FF6F3E;font-size:30rpx;width: 70%;text-align: right }
+
+.dh_bu{width: 100%;height: 100rpx;line-height: 100rpx;background-color: white;border-top: 1rpx solid #EAEAEA;position: fixed;bottom: 0;}
+.di_name{margin-left: 3%;width: 67%;font-size: 30rpx;color: #555}
+.di_button{width: 30%;text-align: center;font-size: 34rpx;color: white;background-color: #FF6F3E}

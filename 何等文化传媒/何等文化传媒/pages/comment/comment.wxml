@@ -1,0 +1,22 @@
+<!--pages/comment/comment.wxml-->
+<view class='tit flex'>
+    <view class='titl_name'>评价</view>
+    <view class='xingx flex' bindtap="myStarChoose1">
+         <block wx:for="{{starMap}}">
+              <image hidden="{{star1<index+1}}" style="padding-right: 10rpx;width:50rpx;margin-top:30rpx;margin-left:10rpx;"  data-star="{{index+1}}" src='../../img/xx-12_12px.png'  mode='widthFix'/>
+              <image hidden="{{star1>=index+1}}" style="padding-right: 10rpx;width:50rpx;margin-top:30rpx;margin-left:10rpx;"  data-star="{{index+1}}" src='../../img/xx-(1).png' mode='widthFix'/>
+            </block>
+        <!-- <view class='xingx_list'></view> -->
+    </view>
+</view>
+
+<textarea class='textarea' placeholder='亲，分下哪个口味、环境、服务等方面的体验来评价哦' placeholder-class='place'></textarea>
+
+
+<view class='img flex'>
+    <view class='imgs'></view>
+    <image src='../../img/scsp (2).png' style='width:30%;margin-left:3%;' mode='widthFix'/>
+    <image src='../../img/scsp (1).png' style='width:30%;margin-left:3%;' mode='widthFix'/>
+</view>
+
+<view class='pl'>评论</view>

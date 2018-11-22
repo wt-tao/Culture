@@ -1,0 +1,11 @@
+<!--pages/make_appointment/make_appointment.wxml-->
+<view class='tit'>
+    <view class='titl_name'>我们将通知商户尽快与您联系</view>
+    <view class='titl_name ls'>预留手机号 <text style='color: #FF6531;margin-left:20rpx;'>12345678912</text></view>
+</view>
+
+<textarea class='textarea' placeholder='亲，分下哪个口味、环境、服务等方面的体验来评价哦' placeholder-class='place'></textarea>
+
+
+
+<view class='pl'>立即预约</view>

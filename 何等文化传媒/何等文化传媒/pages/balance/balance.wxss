@@ -1,0 +1,7 @@
+/* pages/balance/balance.wxss */
+.back{width: 100%;height:350rpx;background-color: #FF6531;color: white;}
+.back_title{width: 100%;height:60rpx;line-height: 60rpx;padding-top: 40rpx;font-size: 28rpx;color: #FED9CF;}
+.ti_text{margin-left: 20rpx;}
+.back_money{width: 100%;font-size: 80rpx;text-align: center;margin-top:50rpx;}
+.list{width: 100%;height: 100rpx;line-height: 100rpx;font-size: 30rpx;border-bottom: 1rpx solid #F6F6F6;margin-top:30rpx;}
+.cz{margin-left:30rpx;}

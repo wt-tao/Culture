@@ -1,0 +1,16 @@
+/* pages/card/card.wxss */
+page{background-color: #F6F6F6}
+.list{width: 100%;height: 240rpx;background-color: white;margin-top:20rpx;}
+.list_l{width: 94%;margin-left: 3%;}
+.list_img{width: 180rpx;height:180rpx;margin-top: 30rpx;border: 1rpx solid black;margin-left:20rpx;}
+.list_r{width: 450rpx;margin-left: 20rpx;height: 220rpx;margin-top:20rpx;}
+.c_r_name{width: 100%;height: 100rpx;line-height: 50rpx;flex-wrap: wrap;font-size: 30rpx;display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;padding-bottom: 10rpx;}
+.lis_money{font-size: 32rpx;color: #FF6F3E;}
+.jf_number{width: 50%;line-height: 100rpx;}
+.js_num{width: 50%;border: 1rpx solid #EAEAEA;height:80rpx;margin-top:10rpx;text-align: center;line-height: 80rpx;font-size: 34rpx;color: #555}
+.j{width: 33.3%;border-right: 1rpx solid #EAEAEA}
+
+.card_tj{width: 100%;height: 100rpx;background-color: white;line-height: 100rpx;position: fixed;bottom: 100rpx;font-size: 32rpx;}
+.tj_name{color: #555;margin-left: 20rpx;}
+.tj_number{width: 50%;margin-left: 20rpx;text-align: center;}
+.tj_bu{width: 30%;text-align: center;background-color: #FF6F3E;color: white;}

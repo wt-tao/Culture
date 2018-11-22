@@ -1,0 +1,23 @@
+/* pages/my_oredr_detail/my_oredr_detail.wxss */
+/* page{background-color: #F0F0F0} */
+.top{width: 100%;height:200rpx;position: absolute;top: 0;}
+.top_text{font-size: 34rpx;color: white;margin-left: 50rpx;line-height: 200rpx;}
+.div{width: 100%;background-color: white;}
+.divs{width: 94%;height:200rpx;margin-top: 20rpx;padding: 30rpx 3%;}
+.head_img{width: 200rpx;height: 200rpx;border: 1rpx solid black;}
+.div_right{width: 480rpx;margin-left: 20rpx;}
+.name{width: 100%;font-size: 30rpx;line-height: 50rpx;flex-wrap: wrap; display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;}
+.money{font-size: 32rpx;color: #FF764B;margin-top:20rpx;}
+.div_bot{width: 100%;font-size: 28rpx;color: #999;height: 50rpx;line-height: 50rpx;}
+.bot_{width: 50%;}.num{text-align: right;}
+.div_t{width: 94%;margin-left: 3%;text-align: right;font-size: 30rpx;color: #FF6433;border-bottom: 1rpx solid #E3E3E3;line-height: 100rpx;}
+
+.list{width: 94%;margin-left: 3%;height: 100rpx;line-height: 100rpx;}
+.list_left{width: 50%;font-size: 32rpx;color: #333;}
+.l_r{font-size: 30rpx;color: #999;text-align: right;}
+
+.div_button{width: 100%;height: 100rpx;position: absolute;bottom: 0;background-color: white;border-top: 1rpx solid #E3E3E3}
+.d_b_left{width: 65%;}
+.d_b_r{width: 200rpx;height: 60rpx;line-height: 60rpx;margin-top: 20rpx;text-align: center;border-radius: 5rpx;border: 2rpx solid #FF6433;color: #FF6433;font-size: 30rpx;margin-left:40rpx;}
+.d_b_left_b{border: 2rpx solid #B4B4B4;color: #454545;margin-left:300rpx;}
+.back{width: 100%;height: 20rpx;background-color: #F0F0F0;}

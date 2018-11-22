@@ -1,0 +1,21 @@
+<!--pages/my_collection/my_collection.wxml-->
+<view class='list_top flex'>
+    <view class='list_c {{id==1?"on":""}}' bindtap='sec' id='1'>积分商品</view>
+    <view class='list_c {{id==2?"on":""}}' bindtap='sec' id='2'>门店展示</view>
+    <view class='list_c {{id==3?"on":""}}' bindtap='sec' id='3'>视频课程</view>
+    <view class='list_c {{id==4?"on":""}}' bindtap='sec' id='4'>联盟商家</view>
+</view>
+
+<view class='div flex' bindtap='shopping_integral_detail' id=''>
+    <view class='head_img'></view>
+    <view class='div_right'>
+        <view class='name'>色粉丝的瑞迪公司是否会双方各双方各输入公式个</view>
+        <view class='money'>￥240</view>
+        <view class='div_bot flex'>
+            <view class='bot_'>积分：2400</view>
+            <view class='bot_'>
+                <view class='df' catchtap='exchange_integral' id=''>兑换</view>
+            </view>
+        </view>
+    </view>
+</view>

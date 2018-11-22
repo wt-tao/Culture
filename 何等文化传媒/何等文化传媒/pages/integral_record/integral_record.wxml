@@ -1,0 +1,12 @@
+<!--pages/integral_record/integral_record.wxml-->
+<view class='div flex'>
+    <view class='head_img'></view>
+    <view class='div_right'>
+        <view class='name'>色粉丝的瑞迪公司是否会双方各双方各输入公式个</view>
+        <view class='money'>￥240</view>
+        <view class='div_bot flex'>
+            <view class='bot_'>积分：2400</view>
+            <view class='bot_ num'>x1</view>
+        </view>
+    </view>
+</view>
